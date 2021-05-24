@@ -1,0 +1,94 @@
+
+
+.contact_Form_container{
+  max-width: 1100px;
+  margin:auto;
+  margin-top:40px; 
+  text-align: center;
+  display: flex;
+  /* background-color: red; */
+}
+
+
+.left_space_div{
+  width: 275px;
+  /* background-color:yellow; */
+}
+
+.contact_form{
+  background-color: #fff;
+  width: 100%;
+  padding: 48px 0;
+  margin-left: 105px;
+}
+
+.animated_Input_Container{
+  margin-top:20px;
+  position: relative;
+}
+
+.animated_Input_Container label{
+  font-style: 1rem;
+  position: absolute;
+  /* left: 160px; */
+  top: 9px;
+  left: 21%;
+  background-color: transparent;
+  color: rgba(0, 0, 0, .5);
+  padding: 0 5px;
+  cursor: text;
+  pointer-events: none;
+  transition: .4s;
+}
+
+.animated_Input_Container input:focus + label{
+  background-color: #fff;
+  font-size:.8rem;
+  top:-10px;
+}
+
+.animated_Input_Container input{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(27, 27, 27);
+  background-color: none;
+  height: 40px;
+  padding: 0px 13px;
+  /* width: 500px; */
+  width: 60%;
+  /* min-width: 300px; */
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.Form_select{
+  width: 90%;
+  height: 40px;
+  min-width: 200px;
+  padding: 6px 5px;
+  border-radius: 5px;
+  outline: none;
+  color: rgba(0, 0, 0, .5);
+  border:1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-size: 1.1rem;
+}
+
+
+#lastFromText{
+  display: block;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+#form_Btn{
+  padding: 15px 10px;
+  margin: 20px 0;
+  width: 150px;
+  cursor: pointer;
+}

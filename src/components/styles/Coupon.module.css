@@ -1,0 +1,9 @@
+
+.Coupon_div{
+  display: block;
+  text-align:center;
+  padding: 8px 0;
+  background-color: #22ff99;
+  color: #2e2f65;
+  font-weight: 800;
+}

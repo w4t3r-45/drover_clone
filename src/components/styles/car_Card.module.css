@@ -1,0 +1,128 @@
+
+.car_card{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+  width: 31.9%;
+  margin: 5px ;
+}
+
+
+.car_card img {
+  width: 100%;
+  height: 154px; 
+}
+
+.car_card #top_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top_div p+p span{
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+#top_div p+p{
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.car_card_new_notif{
+  display: inline-block;
+  padding: 4px 10px;
+  color: #424ef7;
+  background-color: #f2f4fe;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius:20px;
+}
+
+.title_text{
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.car_card hr{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.car_card hr+div *{
+  display: block;
+}
+
+.car_card hr+div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 150px;
+}
+
+.car_card hr+div span{
+  background-color: #d0ffe3;
+  font-weight: 300;
+  font-size: 0.95rem;
+  border-radius: 15px;
+  padding: 0px 8px;
+}
+
+@media all and (max-width:1100px){
+  .list_section{
+    margin: 0 50px;
+    justify-content: center;
+   }
+
+   .car_card{
+     width: 44%; 
+    margin: 4px;
+  }
+
+  .list_section{
+    padding-top:45px; 
+  }
+
+  .car_card img {
+    width: 100%;
+    height: 210px; 
+  }
+  
+}
+
+@media all and (max-width:745px){
+  .list_section{
+    margin: 0 20px;
+    justify-content: center;
+   }
+
+   .car_card{
+    min-width: 478px;
+    margin: 4px;
+  }
+
+  .list_section{
+    padding-top:45px; 
+  }
+
+  .car_card img {
+    width: 100%;
+    height: 180px; 
+  }
+}
+
+@media all and (max-width:548px){
+  .list_section{
+    margin: 0 10px;
+    justify-content: center;
+   }
+
+   .car_card{
+      min-width: 95%;
+      margin: 4px;
+  }
+}

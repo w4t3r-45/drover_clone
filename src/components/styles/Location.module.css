@@ -1,0 +1,42 @@
+.loction_picker{
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 10px;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius:3px;
+  margin-bottom: 20px;
+}
+
+.loction_picker input{
+  border: none;
+  padding: 8px 0 8px 15px;
+  font-size:1rem;
+  width: 80%;
+}
+
+.loction_picker input:focus{
+  outline: none;
+}
+
+
+.location_picker_input_wrpr{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 6px;
+  border-radius:2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location_picker_input_wrpr i {
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px 10px 30px;
+  font-size: 1.1rem;
+}
+
+.location_picker_input_wrpr+p{
+  font-size: 0.8rem;
+  margin-top: 16px;
+  color: #4249f5;
+}

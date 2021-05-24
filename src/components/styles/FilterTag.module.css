@@ -1,0 +1,22 @@
+.Filter_tag{
+  display: inline-block;
+  background-color: #4249f5;
+  color: white;
+  padding: 10px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.Filter_tag p{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.Filter_tag p{
+  font-weight: 400;
+}
+.Filter_tag p+p{
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,27 @@
+
+.rail{
+  width: 100%;
+  height: 1px;
+  background-color: #4249f5;
+  transform: translateY(17px);
+}
+
+.slider{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-color: #4249f5;
+  outline: none;
+  border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #4249f5;
+  border-radius: 50%;
+  cursor:pointer;
+}

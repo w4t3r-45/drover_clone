@@ -1,0 +1,7 @@
+.Filter_select{
+  width: 100%;
+  padding: 6px 5px;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-size: 1.1rem;
+}
